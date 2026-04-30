@@ -1,7 +1,7 @@
 <?php
-	$src = "noto-emoji/png/128";
+	$src = __DIR__."/noto-emoji/png/128";
 	$src_flags = "noto-emoji/build/resized_flags";
-	$dst = "../../img-google-136";
+	$dst = __DIR__."/../../img-google-136";
 
 	$flag_map = [
 		'us' => 'US',

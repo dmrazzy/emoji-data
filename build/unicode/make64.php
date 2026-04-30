@@ -15,7 +15,7 @@
 
 		if ($code){
 			echo "ERROR:\n";
-			echo "   ".$out."\n";
+			echo "   ".implode("\n", $out)."\n";
 		}else{
 			echo ".";
 		}
