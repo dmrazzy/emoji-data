@@ -1,4 +1,6 @@
 <?php
+	if (isset($_SERVER['SERVER_SOFTWARE'])) die("This script needs to be executed in a shell");
+
 	thumb_set('img-facebook-96', 'img-facebook-64');
 
 

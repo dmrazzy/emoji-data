@@ -1,10 +1,12 @@
 <?php
+	if (isset($_SERVER['SERVER_SOFTWARE'])) die("This script needs to be executed in a shell");
+
 	$map = array(
 		'swatch-type-1-2.png'	=> '1f3fb.png',
 		'swatch-type-3.png'	=> '1f3fc.png',
 		'swatch-type-4.png'	=> '1f3fd.png',
 		'swatch-type-5.png'	=> '1f3fe.png',
-		'swatch-type-6.png'	=> '1f3ff.png',		
+		'swatch-type-6.png'	=> '1f3ff.png',
 	);
 
 	foreach ($map as $src => $v){

@@ -1,4 +1,6 @@
 <?php
+	if (isset($_SERVER['SERVER_SOFTWARE'])) die("This script needs to be executed in a shell");
+
 	$src = __DIR__."/noto-emoji/png/128";
 	$src_flags = "noto-emoji/build/resized_flags";
 	$dst = __DIR__."/../../img-google-136";

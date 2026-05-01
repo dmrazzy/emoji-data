@@ -1,4 +1,6 @@
 <?php
+	if (isset($_SERVER['SERVER_SOFTWARE'])) die("This script needs to be executed in a shell");
+
 	$json = file_get_contents('../../emoji.json');
 	$data = json_decode($json, true);
 

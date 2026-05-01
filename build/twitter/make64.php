@@ -1,4 +1,6 @@
 <?php
+	if (isset($_SERVER['SERVER_SOFTWARE'])) die("This script needs to be executed in a shell");
+
 	$files = glob("../../img-twitter-72/*.png");
 
 	shell_exec("rm -f ../../img-twitter-64/*.png");

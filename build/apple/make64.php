@@ -1,4 +1,6 @@
 <?php
+	if (isset($_SERVER['SERVER_SOFTWARE'])) die("This script needs to be executed in a shell");
+
 	# apple images are too big to composite at speed, so we'll make 64px
 	# versions from the 160px source.
 
